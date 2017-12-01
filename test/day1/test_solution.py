@@ -30,7 +30,7 @@ class TestCaptchaSolver(unittest.TestCase):
         self.assertEqual(12, result)
 
     def test_real_captcha(self):
-        with open('day1/input.txt', 'r') as f:
+        with open('input.txt', 'r') as f:
             input_string = f.read()
         result = captcha_solver(input_string)
         self.assertEqual(1136, result)
@@ -61,38 +61,38 @@ class TestCaptchaSolver(unittest.TestCase):
         self.assertEqual(12, result)
 
     def test_lookahead_captcha_solver_example_5(self):
-        with open('day1/input.txt', 'r') as f:
+        with open('input.txt', 'r') as f:
             input_string = f.read()
         result = captcha_solver(input_string)
         self.assertEqual(1136, result)
 
     def test_half_list_lookahead_captcha_solver_example_6(self):
         input_string = '1212'
-        result = lookahead_captcha_solver(input_string, len(input_string)/2)
+        result = half_list_lookahead_captcha_solver(input_string)
         self.assertEqual(6, result)
 
     def test_half_list_lookahead_captcha_solver_example_7(self):
         input_string = '1221'
-        result = lookahead_captcha_solver(input_string, len(input_string)/2)
+        result = half_list_lookahead_captcha_solver(input_string)
         self.assertEqual(0, result)
 
     def test_half_list_lookahead_captcha_solver_example_8(self):
         input_string = '123425'
-        result = lookahead_captcha_solver(input_string, len(input_string)/2)
+        result = half_list_lookahead_captcha_solver(input_string)
         self.assertEqual(4, result)
 
     def test_half_list_lookahead_captcha_solver_example_9(self):
         input_string = '123123'
-        result = lookahead_captcha_solver(input_string, len(input_string)/2)
+        result = half_list_lookahead_captcha_solver(input_string)
         self.assertEqual(12, result)
 
     def test_half_list_lookahead_captcha_solver_example_10(self):
         input_string = '12131415'
-        result = lookahead_captcha_solver(input_string, len(input_string)/2)
+        result = half_list_lookahead_captcha_solver(input_string)
         self.assertEqual(4, result)
 
     def test_real_half_list_lookahead_captcha(self):
-        with open('day1/input.txt', 'r') as f:
+        with open('input.txt', 'r') as f:
             input_string = f.read()
-        result = lookahead_captcha_solver(input_string, len(input_string)/2)
+        result = half_list_lookahead_captcha_solver(input_string)
         self.assertEqual(1092, result)

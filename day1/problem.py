@@ -27,4 +27,4 @@ def lookahead_captcha_solver(input_string, lookahead=1):
 
 
 def half_list_lookahead_captcha_solver(input_string):
-    lookahead_captcha_solver(input_string, len(input_string)/2)
+    return lookahead_captcha_solver(input_string, len(input_string)/2)
