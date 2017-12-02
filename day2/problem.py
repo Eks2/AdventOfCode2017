@@ -23,7 +23,7 @@ def calculate_evenly_divisible_checksum(file_path):
             for i in int_list:
                 for j in int_list:
                     calc = float(i)/j
-                    if calc.is_integer()and calc != 1:
+                    if calc.is_integer() and calc != 1:
                         checksum += calc
                         break
 

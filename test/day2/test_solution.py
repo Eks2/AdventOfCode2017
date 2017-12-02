@@ -19,6 +19,6 @@ class TestChecksumCalculator(unittest.TestCase):
         result = calculate_evenly_divisible_checksum('this_mock_example')
         self.assertEqual(9, result)
 
-    def test_real_evenly_divisible_checksum_example_1(self):
+    def test_real_evenly_divisible_checksum(self):
         result = calculate_evenly_divisible_checksum('input.txt')
-        print result
+        self.assertEqual(226, result)
