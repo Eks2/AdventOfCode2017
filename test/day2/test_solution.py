@@ -14,6 +14,10 @@ class TestChecksumCalculator(unittest.TestCase):
         result = calculate_checksum('input.txt')
         self.assertEqual(41887, result)
 
+    def test_alfred_checksum(self):
+        result = calculate_checksum('input_alfred.txt')
+        print result
+
     @patch('day2.problem.open', mock_open(read_data='5\t9\t2\t8\n9\t4\t7\t3\n3\t8\t6\t5'), create=True)
     def test_evenly_divisible_checksum_example_1(self):
         result = calculate_evenly_divisible_checksum('this_mock_example')
