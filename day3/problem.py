@@ -44,7 +44,7 @@ def find_steps_from_number(number):
 class SpiralMemory:
 
     def __init__(self):
-        self.df = pd.DataFrame({'x' : [0], 'y' : [0], 'sum_value' : [1]})
+        self.df = pd.DataFrame({'x': [0], 'y': [0], 'sum_value': [1]})
 
     @property
     def current_index(self):

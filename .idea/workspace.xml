@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c293ee19-c9a6-474a-9512-8cfe9899e6de" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/day3/problem.py" afterPath="$PROJECT_DIR$/day3/problem.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,14 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5188425">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="problem.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/day5/problem.py">
+            <entry file="file://$PROJECT_DIR$/day6/problem.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -28,12 +29,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file leaf-file-name="test_solution.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/day5/test_solution.py">
+            <entry file="file://$PROJECT_DIR$/test/day6/test_solution.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -55,7 +56,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>half_list_lookahead_captcha_solver</find>
+      <find>num_list</find>
     </findStrings>
+    <replaceStrings>
+      <replace>int_list</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,19 +81,21 @@
         <option value="$PROJECT_DIR$/day2/problem.py" />
         <option value="$PROJECT_DIR$/test/day2/test_solution.py" />
         <option value="$PROJECT_DIR$/test/day2/input_alfred.txt" />
-        <option value="$PROJECT_DIR$/day3/problem.py" />
         <option value="$PROJECT_DIR$/test/day3/test_solution.py" />
         <option value="$PROJECT_DIR$/test/day4/input.txt" />
         <option value="$PROJECT_DIR$/day4/problem.py" />
         <option value="$PROJECT_DIR$/test/day4/test_solution.py" />
         <option value="$PROJECT_DIR$/day5/problem.py" />
         <option value="$PROJECT_DIR$/test/day5/test_solution.py" />
+        <option value="$PROJECT_DIR$/day3/problem.py" />
+        <option value="$PROJECT_DIR$/day6/problem.py" />
+        <option value="$PROJECT_DIR$/test/day6/test_solution.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="y" value="19" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="181" />
+    <option name="y" value="-15" />
     <option name="width" value="1776" />
     <option name="height" value="1407" />
   </component>
@@ -110,8 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +129,21 @@
             <path>
               <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
+              <item name="day3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
               <item name="day4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -132,19 +154,24 @@
             <path>
               <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="day6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="day4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="day5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventOfCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventOfCode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="day6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,62 +205,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_solution.TestMazePuzzle.test_real_steps_to_exit">
-    <configuration name="Unittests for test_solution.TestMazePuzzle" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_solution.TestRedistributionAlgorithms">
+    <configuration name="Unittests for test_solution.TestRedistributionAlgorithms" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/day5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/day6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AdventOfCode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_solution.TestMazePuzzle&quot;" />
+      <option name="_new_target" value="&quot;test_solution.TestRedistributionAlgorithms&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_solution.TestMazePuzzle.test_real_steps_to_exit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_solution.TestRedistributionAlgorithms.test_example_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/day5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/day6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AdventOfCode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_solution.TestMazePuzzle.test_real_steps_to_exit&quot;" />
+      <option name="_new_target" value="&quot;test_solution.TestRedistributionAlgorithms.test_example_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_solution.TestMazePuzzle.test_real_strange_steps_to_exit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_solution.TestRedistributionAlgorithms.test_real_puzzle_input" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/day5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/day6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AdventOfCode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_solution.TestMazePuzzle.test_real_strange_steps_to_exit&quot;" />
+      <option name="_new_target" value="&quot;test_solution.TestRedistributionAlgorithms.test_real_puzzle_input&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_solution.TestMazePuzzle.test_steps_to_exit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_solution.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/day5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/day6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AdventOfCode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_solution.TestMazePuzzle.test_steps_to_exit&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/day6/test_solution.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in test_solution.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,19 +277,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestMazePuzzle" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestMazePuzzle.test_real_strange_steps_to_exit" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestMazePuzzle.test_steps_to_exit" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestMazePuzzle.test_real_steps_to_exit" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestRedistributionAlgorithms.test_example_1" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestRedistributionAlgorithms.test_real_puzzle_input" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestRedistributionAlgorithms" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestMazePuzzle.test_real_steps_to_exit" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestMazePuzzle" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestMazePuzzle.test_steps_to_exit" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestMazePuzzle.test_real_strange_steps_to_exit" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestRedistributionAlgorithms" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestRedistributionAlgorithms.test_example_1" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestRedistributionAlgorithms.test_real_puzzle_input" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
       </list>
     </recent_temporary>
   </component>
@@ -315,39 +342,46 @@
       <option name="project" value="LOCAL" />
       <updated>1512428837435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day 5 complete!">
+      <created>1512590685891</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512590685891</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_solution_TestMazePuzzle - 2017.12.05 at 20h 26m 19s.xml">
-      <configuration name="Unittests for test_solution.TestMazePuzzle" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestRedistributionAlgorithms - 2017.12.06 at 22h 49m 42s.xml">
+      <configuration name="Unittests for test_solution.TestRedistributionAlgorithms" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solution_TestMazePuzzle - 2017.12.06 at 20h 04m 13s.xml">
-      <configuration name="Unittests for test_solution.TestMazePuzzle" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestRedistributionAlgorithms - 2017.12.06 at 22h 50m 36s.xml">
+      <configuration name="Unittests for test_solution.TestRedistributionAlgorithms" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solution_TestMazePuzzle_test_real_steps_to_exit - 2017.12.06 at 20h 04m 16s.xml">
-      <configuration name="Unittests for test_solution.TestMazePuzzle.test_real_steps_to_exit" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestRedistributionAlgorithms_test_example_1 - 2017.12.06 at 22h 50m 32s.xml">
+      <configuration name="Unittests for test_solution.TestRedistributionAlgorithms.test_example_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solution_TestMazePuzzle_test_real_strange_steps_to_exit - 2017.12.06 at 20h 03m 01s.xml">
-      <configuration name="Unittests for test_solution.TestMazePuzzle.test_real_strange_steps_to_exit" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestRedistributionAlgorithms_test_real_puzzle_input - 2017.12.06 at 22h 48m 44s.xml">
+      <configuration name="Unittests for test_solution.TestRedistributionAlgorithms.test_real_puzzle_input" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solution_TestMazePuzzle_test_steps_to_exit - 2017.12.06 at 20h 03m 56s.xml">
-      <configuration name="Unittests for test_solution.TestMazePuzzle.test_steps_to_exit" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestRedistributionAlgorithms_test_real_puzzle_input - 2017.12.06 at 22h 49m 07s.xml">
+      <configuration name="Unittests for test_solution.TestRedistributionAlgorithms.test_real_puzzle_input" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solution_TestMazePuzzle_test_strange_steps_to_exit - 2017.12.05 at 20h 26m 14s.xml">
-      <configuration name="Unittests for test_solution.TestMazePuzzle.test_strange_steps_to_exit" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solution_py_(1) - 2017.12.06 at 22h 30m 48s.xml">
+      <configuration name="Unittests in test_solution.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solution_py - 2017.12.05 at 18h 38m 16s.xml">
-      <configuration name="Unittests in test_solution.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solution_py_(1) - 2017.12.06 at 22h 31m 04s.xml">
+      <configuration name="Unittests in test_solution.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solution_py - 2017.12.05 at 18h 39m 40s.xml">
-      <configuration name="Unittests in test_solution.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solution_py_(1) - 2017.12.06 at 22h 32m 48s.xml">
+      <configuration name="Unittests in test_solution.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solution_py - 2017.12.05 at 19h 31m 51s.xml">
-      <configuration name="Unittests in test_solution.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solution_py_(1) - 2017.12.06 at 22h 49m 26s.xml">
+      <configuration name="Unittests in test_solution.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solution_py - 2017.12.06 at 20h 03m 27s.xml">
-      <configuration name="Unittests in test_solution.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solution_py_(1) - 2017.12.06 at 22h 50m 24s.xml">
+      <configuration name="Unittests in test_solution.py (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -360,15 +394,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="19" width="1776" height="1407" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14499424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09929078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44921875" sideWeight="0.5031521" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42171517" sideWeight="0.4968479" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42109376" sideWeight="0.4968479" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.49842396" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -391,29 +425,16 @@
     <MESSAGE value="Quick fixes" />
     <MESSAGE value="Day 3 complete!" />
     <MESSAGE value="Day 4 complete!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 4 complete!" />
+    <MESSAGE value="Day 5 complete!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5 complete!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day2/problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day3/problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="92" column="32" lean-forward="true" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day4/problem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -643,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day2/problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/day2/test_solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -662,20 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day3/problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="92" column="32" lean-forward="false" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/day3/test_solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -693,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day1/problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/day4/test_solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -707,20 +700,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/day5/test_solution.py">
+    <entry file="file://$PROJECT_DIR$/test/day3/test_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day3/problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day2/problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/problem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/day5/test_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/day6/test_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day5/problem.py">
+    <entry file="file://$PROJECT_DIR$/day6/problem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding />
         </state>
       </provider>
